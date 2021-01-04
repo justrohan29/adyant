@@ -4,9 +4,9 @@ import pandas as pd
 import random
 st.title("Adyant's Maths Software")
 st.header("Click on the buttons for a Maths question.")
-first = random.randint(500, 999)
+first = random.randint(100, 250)
 second = random.randint(100, 499)
-third = random.randint(1, 10)
+third = random.randint(1, 8)
 fourth = random.randint(1, 30)
 
 if st.button('Addition'):
