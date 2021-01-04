@@ -6,8 +6,8 @@ st.title("Adyant's Maths Software")
 st.header("Click on the buttons for a Maths question.")
 first = random.randint(100, 250)
 second = random.randint(100, 499)
-third = random.randint(1, 8)
-fourth = random.randint(1, 30)
+third = random.randint(2, 9)
+fourth = random.randint(10, 30)
 
 if st.button('Addition'):
             st.error(f"{first} + {second}")
@@ -20,7 +20,7 @@ if st.button('Division'):
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://media.istockphoto.com/photos/yellow-nature-background-picture-id1024230944?k=6&m=1024230944&s=612x612&w=0&h=xY4FarmmXF0M1VZuJyTDGTDb2_N_tMkqXooZzzsXhgE=");
+background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaperaccess.com%2Flight-blue-gradient&psig=AOvVaw3Vg7HpG6uOKPuTEFrKE-fi&ust=1609830911726000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPjspc_dge4CFQAAAAAdAAAAABAD");
 background-size: cover;
 }
 </style>
