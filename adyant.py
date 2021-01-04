@@ -4,8 +4,8 @@ import pandas as pd
 import random
 st.title("Adyant's Maths Software")
 st.header("Click on the buttons for a Maths question.")
-first = random.randint(100, 250)
-second = random.randint(100, 499)
+first = random.randint(499, 999)
+second = random.randint(100, 498)
 third = random.randint(2, 9)
 fourth = random.randint(10, 30)
 
