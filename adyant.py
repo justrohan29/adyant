@@ -20,7 +20,7 @@ if st.button('Division'):
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaperaccess.com%2Flight-blue-gradient&psig=AOvVaw3Vg7HpG6uOKPuTEFrKE-fi&ust=1609830911726000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPjspc_dge4CFQAAAAAdAAAAABAD");
+background-image: url("https://img.freepik.com/free-photo/gold-fabric-cloth-background-texture_49683-3812.jpg?size=626&ext=jpg&ga=GA1.2.477405023.1609372800");
 background-size: cover;
 }
 </style>
