@@ -27,3 +27,28 @@ background-size: cover;
 '''
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
+
+sug = 'https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=minecode007@gmail.com'
+
+if st.sidebar.button('Suggestions'):
+    webbrowser.open_new_tab(sug)
+
+Add = 'https://www.youtube.com/watch?v=i3WCL7AN5-g'
+
+if st.sidebar.button('How To Add'):
+    webbrowser.open_new_tab(Add)
+
+Sub = 'https://www.youtube.com/watch?v=61NUJRm-nyA'
+
+if st.sidebar.button('How To Subtract'):
+    webbrowser.open_new_tab(Sub)
+
+Mul = 'https://www.youtube.com/watch?v=UtAkNVbkXvU'
+
+if st.sidebar.button('How To Multiply'):
+    webbrowser.open_new_tab(Mul)
+
+Div = 'youtube.com/watch?v=3NvZo1rZKIo'
+
+if st.sidebar.button('How To Divide'):
+    webbrowser.open_new_tab(Div)
