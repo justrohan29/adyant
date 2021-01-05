@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import random
+import webbrowser
 st.title("Adyant's Maths Software")
 st.header("Click on the buttons for a Maths question.")
 first = random.randint(499, 999)
