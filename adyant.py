@@ -23,6 +23,8 @@ page_bg_img = '''
 body {
 background-image: url("https://img.freepik.com/free-photo/gold-fabric-cloth-background-texture_49683-3812.jpg?size=626&ext=jpg&ga=GA1.2.477405023.1609372800");
 background-size: cover;
+MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
 }
 </style>
 '''
