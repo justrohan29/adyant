@@ -5,7 +5,7 @@ import random
 import webbrowser
 st.title("Adyant's Maths Software")
 st.header("Click on the buttons for a Maths question.")
-first = random.randint(501, 4999)
+first = random.randint(501, 9999)
 second = random.randint(100, 4999)
 third = random.randint(399, 999)
 fourth = random.randint(10, 30)
