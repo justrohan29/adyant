@@ -10,12 +10,20 @@ second = random.randint(12000, 99998)
 third = random.randint(399, 999)
 fourth = random.randint(10, 30)
 
+sub1 = [Mala, Sheetal, Johnny, Sachin, Boiboi]
+sub2 = [Akash, Lenny, Petro, Danish, Isaac]
+thing = [Marbles, Nu-Shakti Mix Me Sachets, Books, grams of rice, litres of water]
+
+asub = random.choice(sub1)
+bsub = random.choice(sub2)
+stf = random.choice(thing)
+
 
 #if st.button('Addition'):
           #  st.error(f"{first} + {second}")
 if st.button('Subtraction Word Problem'):
             st.error(f"{first} - {second}")
-            st.error(f"{first} - {second} my name is giorgio")
+            st.error("Random selected number is : " + str(stf))
             
 #if st.button('Multiplication'):
           #  st.error(f"{first} × {third}")
