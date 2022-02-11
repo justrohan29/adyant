@@ -5,19 +5,20 @@ import random
 import webbrowser
 st.title("Adyant's Maths Software")
 st.header("Click on the buttons for a Maths question.")
-first = random.randint(501, 9999)
-second = random.randint(100, 4999)
+first = random.randint(99999, 999999)
+second = random.randint(12000, 99998)
 third = random.randint(399, 999)
 fourth = random.randint(10, 30)
 
-if st.button('Addition'):
-            st.error(f"{first} + {second}")
+
+#if st.button('Addition'):
+          #  st.error(f"{first} + {second}")
 if st.button('Subtraction'):
             st.error(f"{first} - {second}")
-if st.button('Multiplication'):
-            st.error(f"{first} × {third}")
-if st.button('Division'):
-            st.error(f"{fourth} ÷ {third}")
+#if st.button('Multiplication'):
+          #  st.error(f"{first} × {third}")
+#if st.button('Division'):
+   #         st.error(f"{fourth} ÷ {third}")
 page_bg_img = '''
 <style>
 body {
