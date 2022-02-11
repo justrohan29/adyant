@@ -23,7 +23,7 @@ stf = random.choice(thing)
           #  st.error(f"{first} + {second}")
 if st.button('Subtraction Word Problem'):
             st.error(f"{first} - {second}")
-            st.error(f"str(asub) had {first} {stf}. They gave {second} to {bsub}. How many {stf} does {asub} have left?")
+            st.error(f"{asub} had {first} {stf}. They gave {second} to {bsub}. How many {stf} does {asub} have left?")
             
 #if st.button('Multiplication'):
           #  st.error(f"{first} × {third}")
