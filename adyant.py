@@ -13,8 +13,10 @@ fourth = random.randint(10, 30)
 
 #if st.button('Addition'):
           #  st.error(f"{first} + {second}")
-if st.button('Subtraction'):
+if st.button('Subtraction Word Problem'):
             st.error(f"{first} - {second}")
+            st.error(f"{first} - {second} my name is giorgio")
+            
 #if st.button('Multiplication'):
           #  st.error(f"{first} × {third}")
 #if st.button('Division'):
