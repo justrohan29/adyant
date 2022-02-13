@@ -10,8 +10,8 @@ second = random.randint(12000, 99998)
 third = random.randint(399, 999)
 fourth = random.randint(10, 30)
 
-sub1 = ["Mala", "Sheetal", "Johnny", "Sachin", "Boiboi"]
-sub2 = ["Akash", "Lenny", "Petro", "Danish", "Isaac"]
+sub1 = ["Mala", "Sheetal", "Johnny", "Sachin", "Boiboi, Adyant, Ronny, Zen, Nitin, Jake, Logan, Mark, Jimmy, "]
+sub2 = ["Akash", "Lenny", "Petro", "Danish", "Isaac, Bella, Lana, Charlie, Seth, Drako, Steve, Robert, Ivan"]
 thing = ["Marbles", "Nu-Shakti Mix Me Sachets", "Books", "Grams of Rice", "Litres of water"]
 
 asub = random.choice(sub1)
@@ -22,6 +22,7 @@ stf = random.choice(thing)
 if st.button('Addition Word Problem'):
           #  st.error(f"{first} + {second}")
           st.error(f"{asub} had {first} {stf}. They took {second} {stf} from {bsub}. How many {stf} does {asub} have now?")
+          user_input = st.text_input("label goes here", default_value_goes_here)
 if st.button('Subtraction Word Problem'):
             #st.error(f"{first} - {second}")
             st.error(f"{asub} had {first} {stf}. They gave {second} {stf} to {bsub}. How many {stf} does {asub} have left?")
