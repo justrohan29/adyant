@@ -10,6 +10,9 @@ second = random.randint(12000, 99998)
 third = random.randint(399, 999)
 fourth = random.randint(10, 30)
 
+ansfs = (first + second)
+st.success(ansfs)
+
 sub1 = ["Mala", "Sheetal", "Johnny", "Sachin", "Boiboi, Adyant, Ronny, Zen, Nitin, Jake, Logan, Mark, Jimmy, "]
 sub2 = ["Akash", "Lenny", "Petro", "Danish", "Isaac, Bella, Lana, Charlie, Seth, Drako, Steve, Robert, Ivan"]
 thing = ["Marbles", "Nu-Shakti Mix Me Sachets", "Books", "Grams of Rice", "Litres of water"]
