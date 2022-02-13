@@ -23,7 +23,7 @@ if st.button('Addition Word Problem'):
           #  st.error(f"{first} + {second}")
           st.error(f"{asub} had {first} {stf}. They took {second} {stf} from {bsub}. How many {stf} does {asub} have now?")
           ans1 = st.text_input("Type the Answer Here")
-          if ans1 = (f"{first + second}"):
+          if ans1(f"{first + second}"):
                     st.success("Correct Answer!!")
           
           
