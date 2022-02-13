@@ -22,7 +22,7 @@ stf = random.choice(thing)
 if st.button('Addition Word Problem'):
           #  st.error(f"{first} + {second}")
           st.error(f"{asub} had {first} {stf}. They took {second} {stf} from {bsub}. How many {stf} does {asub} have now?")
-          user_input = st.text_input("first-second", "first-second")
+          user_input = st.text_input("first-second", first"-"second)
 if st.button('Subtraction Word Problem'):
           #st.error(f"{first} - {second}")
           st.error(f"{asub} had {first} {stf}. They gave {second} {stf} to {bsub}. How many {stf} does {asub} have left?")
