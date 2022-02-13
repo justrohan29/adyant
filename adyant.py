@@ -11,6 +11,7 @@ third = random.randint(399, 999)
 fourth = random.randint(10, 30)
 
 ansfs = (first + second)
+anssfss = (first - second)
 
 sub1 = ["Mala", "Sheetal", "Johnny", "Sachin", "Boiboi, Adyant, Ronny, Zen, Nitin, Jake, Logan, Mark, Jimmy, "]
 sub2 = ["Akash", "Lenny", "Petro", "Danish", "Isaac, Bella, Lana, Charlie, Seth, Drako, Steve, Robert, Ivan"]
@@ -24,11 +25,9 @@ stf = random.choice(thing)
 if st.button('Addition Word Problem'):
           #  st.error(f"{first} + {second}")
           st.error(f"{asub} had {first} {stf}. They took {second} {stf} from {bsub}. How many {stf} does {asub} have now?")
-          ans1 = st.text_input("Type the Answer Here")
-          if (ans1 == ansfs):
-                    st.write("Correct!")
-          else:
-                    st.write(f"Wrong!, the correct answer is {ansfs}")
+          if st.button('Show Answer'):
+                    st.success(ansfs)
+                    
           
           
           
@@ -37,6 +36,8 @@ if st.button('Addition Word Problem'):
 if st.button('Subtraction Word Problem'):
           #st.error(f"{first} - {second}")
           st.error(f"{asub} had {first} {stf}. They gave {second} {stf} to {bsub}. How many {stf} does {asub} have left?")
+          if st.button('Show Answer'):
+                    st.success(anssfss)
             
 #if st.button('Multiplication'):
           #  st.error(f"{first} × {third}")
